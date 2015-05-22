@@ -1,0 +1,133 @@
+body{
+	background: url(background2.png) no-repeat center center fixed;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+	background-color: rgb(114,171,158);
+	font-family: "Avenir";
+}
+h1{
+	font-size: 6em;
+	font-family: "Brannboll fet";
+	margin-top: 3%;
+	margin-left: 38%;
+	color: white;
+}
+p{
+	margin-bottom: 1%;
+}
+h3{
+	color: white;
+	font-size: 0.75em;
+	margin-top: 5%;
+
+}
+.div{
+	width: 650px;
+}
+.kunst{
+	margin-left: 10%;
+	margin-top: 5%;
+}
+#red{
+	margin-left: 20%;
+}
+#tekstred{
+	position: relative;
+}
+.redstarline{
+	margin-top: 25%;
+	margin-left: 25%;
+	padding-left: 3%;
+	padding-bottom: 2%;
+	width:40%;
+	padding-right: 2%;
+	padding-top: 1%;
+}
+#mas{
+	margin-left: 20%;
+}
+#tekstmas{
+	position: relative;
+	width: 750px;
+}
+.hetmas{
+	margin-top: 5%;
+	margin-left: 25%;
+	padding-left: 3%;
+	padding-bottom: 2%;
+	width:40%;
+	padding-right: 2%;
+	padding-top: 1%;
+}
+#felix{
+	margin-left: 20%;
+}
+#tekstfelix{
+	position: relative;
+	width: 750px;
+}
+.felixpakhuis{
+	margin-top: 5%;
+	margin-left: 25%;
+	padding-left: 3%;
+	padding-bottom: 2%;
+	width:40%;
+	padding-right: 2%;
+	padding-top: 1%;
+}
+.tekst{
+	width: 850px;
+}
+h2{
+	font-size: 2em;
+	font-family: "Brannboll fet";
+	margin-bottom: 2%;
+	margin-top: 2%;
+}
+.wijzen{
+	margin-top: 2%;
+}
+.klokje{
+	margin-top: 2%;
+}
+
+a{
+	text-decoration: none;
+}
+.startpagina{
+	margin-left: 5%;
+}
+.hoofdpagina{
+	margin-top: 5%;
+	margin-left: 0.5%;
+	margin-bottom: 5%;
+}
+.wijzen{
+	margin-top: 2%;
+	margin-left: 63%;
+}
+@media (max-width: 800px){
+	body{
+		background: url(achtergrond_kunst.png)no-repeat center center fixed ;
+	}
+	h1{
+		font-size: 4em;
+	}
+	.klokje{
+		width: 30%;
+	}
+}
+@media (max-width: 600px){
+	h1{
+		font-size: 2em;
+	}
+	.startpagina, .zien, .art, .eten, .seizoen{
+		width: 150px;
+		margin-left: 15%;
+	}
+	.klokje{
+		width: 45%;
+	}
+}

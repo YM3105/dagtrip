@@ -1,0 +1,202 @@
+body{
+	background: url(achtergrond.png) no-repeat center center fixed;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+	background-color: rgb(213,105,94);
+	font-family: "Avenir";
+}
+h1{
+	font-size: 6em;
+	font-family: "Brannboll fet";
+	margin-top: 3%;
+	margin-left: 38%;
+	color: white;
+	margin-bottom: 1%;
+}
+p{
+	margin-bottom: 1%;
+}
+h3{
+	color: white;
+	font-size: 0.75em;
+	margin-top: 5%;
+}
+.honger{
+	margin-left: 10%;
+}
+#balls{
+	margin-left: 20%;
+}
+#tekstballs{
+	position: relative;
+	width: 550px;
+}
+.ballsenglory{
+	margin-top: 5%;
+	margin-left: 25%;
+	padding-left: 3%;
+	padding-bottom: 2%;
+	width:40%;
+	padding-right: 2%;
+	padding-top: 1%;
+}
+#blend{
+	margin-left: 20%;
+}
+#tekstblend{
+	position: relative;
+	width: 550px;
+}
+.blendresto{
+	margin-top: 5%;
+	margin-left: 25%;
+	padding-left: 3%;
+	padding-bottom: 2%;
+	width:40%;
+	padding-right: 2%;
+	padding-top: 1%;
+}
+#broer{
+	margin-left: 20%;
+}
+#tekstbroer{
+	position: relative;
+	width: 550px;
+}
+.broerbretel{
+	margin-top: 5%;
+	margin-left: 25%;
+	padding-left: 3%;
+	padding-bottom: 2%;
+	width:40%;
+	padding-right: 2%;
+	padding-top: 1%;
+}
+#duvels, #burgerij, #pomphuis, #leeuw, #sileau{
+	margin-left: 20%;
+}
+#tekstduvels, #tekstburgerij, #tekstpomphuis, #tekstleeuw, #tekstsileau{
+	position: relative;
+	width: 550px;
+}
+.duvelsgenot, .deburgerij, .hetpomphuis, .deoudeleeuw, .sileauresto{
+	margin-top: 5%;
+	margin-left: 25%;
+	padding-left: 3%;
+	padding-bottom: 2%;
+	width:40%;
+	padding-right: 2%;
+	padding-top: 1%;
+}
+.burgerij{
+	margin-left: 3%;
+	margin-top: 3%;
+}
+.pomphuis{
+	margin-left: 3%;
+	margin-top:3%;
+}
+.leeuw{
+	margin-left: 3%;
+	margin-top: 3%;
+}
+.sileau{
+	margin-left: 3%;
+	margin-top: 3%;
+}
+.tekst{
+	width: 850px;
+}
+h2{
+	font-size: 2em;
+	font-family: "Brannboll fet";
+	margin-bottom: 2%;
+	margin-top: 2%;
+}
+.ballsenglory{
+	margin-bottom: 5%;
+}
+a{
+	text-decoration: none;
+}
+.startpagina{
+	margin-left: 5%;
+}
+.hoofdpagina{
+	margin-top: 5%;
+	margin-left: 0.5%;
+	margin-bottom: 5%;
+}
+.klokje{
+	margin-top: 2%;
+}
+.wijzen{
+	margin-top: 2%;
+	margin-left: 88%;
+}
+
+@media (max-width: 800px){
+	body{
+		background: url(achtergrond_honger.png)no-repeat center center fixed ;
+	}
+	h1{
+		font-size: 4em;
+	}
+	.klokje{
+		width: 30%;
+	}
+}
+@media (max-width: 600px){
+	h1{
+		font-size: 2em;
+	}
+	.startpagina, .zien, .art, .eten, .seizoen{
+		width: 150px;
+		margin-left: 15%;
+	}
+	.klokje{
+		width: 45%;
+	}
+}
+plugins: {
+ 
+    // "myContent" is the name of our plugin
+    myContent: {
+ 
+        // location of the plugin
+        url: 'flowplayer.content-3.2.9.swf',
+ 
+        // display properties
+        top: 20,
+        width: 300,
+ 
+        // styling properties
+        borderRadius: 10,
+        backgroundImage: 'url(pattern.png)',
+ 
+        // linked stylesheet
+        stylesheet: 'content-plugin.css',
+ 
+        // "inline" styling (overrides external stylesheet rules),
+        style: {
+            '.title': {
+                fontSize: 16,
+                fontFamily: 'verdana,arial,helvetica'
+            }
+        },
+ 
+        /
+            initial HTML content. content can also be fetched from the HTML document
+            like we did in the example above. see the source code for that.
+        /
+        html: '<img src="hello-world.png" align="left" />
+        <p class="title">My title</p>',
+ 
+        // clicking on the plugin hides it (but you can do anything)
+        onClick: function() {
+            this.hide();
+        }
+    }
+}

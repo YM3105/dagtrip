@@ -1,0 +1,63 @@
+body{
+	background: url(websitehtml.png) no-repeat center center fixed;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: 1390px 700px;
+	font-family: "Avenir";
+}
+.seizoens{
+	width: 250px;
+	margin-left: 15%;
+	margin-top: 7%;
+	transform: rotate(6deg);
+	color: white;
+}
+a{
+	text-decoration: none;
+}
+.honger{
+	float: right;
+	width: 110px;
+	margin-top: 6.35%;
+	margin-right: 52%;
+	transform: rotate(-3deg);
+	color: white;
+}
+.kijken{
+	float: right;
+	width: 100px;
+	margin-right: 54%;
+	margin-top: 2.3%;
+	transform:rotate(6deg);
+	color: white;
+}
+.kunst{
+	margin-left: 28%;
+	width: 100px;
+	margin-top: 4.2%;
+	transform:rotate(-7deg);
+	color: white;
+	
+}
+.zomer, .eten, .bril, .art, .start{
+	font-size: 2em;
+	margin-left: 8%;
+	color: white;
+}
+h1{
+	font-size: 6em;
+	font-family: "Brannboll Fet";
+	margin-top: 5%;
+	margin-left: 35%;
+}
+p{
+	font-size: 1em;
+	font-family: "Avenir";
+	width: 8%;
+	margin-left: 48.5%;
+}
+.klik{
+	margin-left: 25%;
+	margin-top: 0.5%;
+}

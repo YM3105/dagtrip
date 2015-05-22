@@ -1,0 +1,128 @@
+body{
+	background: url(background3.png) no-repeat center center fixed;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+  	background-color: rgb(168,153,194);
+	font-family: "Avenir";
+}
+h1{
+	font-size: 6em;
+	font-family: "Brannboll fet";
+	margin-top: 3%;
+	margin-left: 38%;
+	color:white;
+}
+p{
+	margin-bottom: 1%;
+}
+h3{
+	color: white;
+	font-size: 0.75em;
+	margin-top: 5%;
+	color:white;
+	margin-bottom: 2%;
+}
+.kijken{
+	margin-left: 8%;
+	margin-top: 5%;
+}
+#flandria{
+	margin-left: 20%;
+}
+
+.deflandria{
+	margin-top: 25%;
+	margin-left: 25%;
+	padding-left: 3%;
+	padding-bottom: 2%;
+	width: 40%;
+	padding-right: 2%;
+	padding-top: 1%;
+}
+#havenhuis{
+	margin-left: 20%;
+}
+#teksthaven{
+	position: relative;
+	width: 750px;
+}
+.hethavenhuis{
+	margin-top: 5%;
+	margin-left: 25%;
+	padding-left: 3%;
+	padding-bottom: 2%;
+	width:40%;
+	padding-right: 2%;
+	padding-top: 1%;
+}
+#kerkschip{
+	margin-left: 20%;
+}
+#tekstkerk{
+	position: relative;
+	width: 750px;
+}
+.schip{
+	margin-top: 5%;
+	margin-left: 25%;
+	padding-left: 3%;
+	padding-bottom: 2%;
+	width:40%;
+	padding-right: 2%;
+	padding-top: 1%;
+}
+.tekst{
+	width: 850px;
+}
+h2{
+	font-size: 2em;
+	font-family: "Brannboll fet";
+	margin-bottom: 2%;
+	margin-top: 2%;
+}
+.wijzen{
+	margin-top: 2%;
+}
+.klokje{
+	margin-top: 2%;
+}
+a{
+	text-decoration: none;
+}
+.startpagina{
+	margin-left: 5%;
+}
+.hoofdpagina{
+	margin-top: 5%;
+	margin-bottom: 5%;
+	margin-left: 7%;
+}
+.wijzen{
+	margin-top: 2%;
+	margin-left: 88%;
+}
+@media (max-width: 800px){
+	body{
+		background: url(achtergrond_kijken.png)no-repeat center center fixed ;
+	}
+	h1{
+		font-size: 4em;
+	}
+	.klokje{
+		width: 30%;
+	}
+}
+@media (max-width: 600px){
+	h1{
+		font-size: 2em;
+	}
+	.startpagina, .zien, .art, .eten, .seizoen{
+		width: 150px;
+		margin-left: 15%;
+	}
+	.klokje{
+		width: 45%;
+	}
+}
